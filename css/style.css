@@ -9,6 +9,7 @@ body{
     /* background: black; */
 width: 100%;
 min-height: 100vh;
+font-family: sans-serif;
 }
 /* dtat to use */
 /* 
@@ -46,7 +47,9 @@ hero logo text
 
 }
 .header nav .logo a{
-    font-size: 24px;
+    font-size: 30px;
+    font-weight: 600;
+    font-family: ;
     color: #e5e7eb;
     cursor: pointer;
     text-decoration: none;
@@ -60,12 +63,45 @@ hero logo text
     display: flex;
 
 }  
-.header .main .container .title {
-
+ .title {
+    font-size: 40px;
+    font-weight: 800;
+    font-family: "Noto Sans" , sans serif ;
+    color: #f9faf8;
+    margin-bottom: 15px;
+       
+}
+.container{
+    display: flex;
+    flex-flow: row wrap;
+}
+.text_main{
+    flex-shrink: 2;
+    color: #e5e7eb;
+    font-size: 18px;
+    font-family: "Source Code Pro" , sans-serif;
+}
+.sign_main{
+    margin-top: 20px;
+}
+.sign_main a{
+    background: #3882f6;
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    padding: 8px 24px;
+    border-radius: 10px;   
+}
+.sign_main  :hover{
+    color: #000000;
+    background: #cfcfcf;
     
 }
 
 .img1{
-    width: 350px;
+    width: 400px;
     height: 200px;
+    margin-bottom: 50px;
 }
